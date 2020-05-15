@@ -1,8 +1,7 @@
-# PHOTO-APP by Reactjs + Redux + Redux Toolkit + ReactStrap + React-router-dom
+# Photo-app  
+Reactjs + Redux + Redux Toolkit + ReactStrap + React-router-dom
 
 ## Setup environment 
-
-Github Project: https://github.com/paulnguyen-mn/redux-photo-app
 
 ### 1. Setup ReactJS App via Create React App
 
@@ -10,7 +9,7 @@ Github Project: https://github.com/paulnguyen-mn/redux-photo-app
 
 ### 2. Add SCSS support
 
-```js
+```
 npm i --save-dev node-sass
 ```
 
@@ -23,6 +22,7 @@ npm i --save react-router-dom
 ### 4. Add UI lib
 
 ```
+npm i --save bootstrap
 npm i --save reactstrap
 ```
 
