@@ -12,7 +12,7 @@ InputField.propTypes = {
   disabled: PropTypes.bool,
 };
 
-InputField.propTypes = {
+InputField.default = {
   type: "text",
   label: "",
   placeholder: "",
@@ -22,6 +22,7 @@ InputField.propTypes = {
 function InputField(props) {
   const { field, type, label, placeholder, disabled } = props;
   const { name } = field;
+  console.log(props);
   return (
     <FormGroup>
       {label && <Label for={name}>{label}</Label>}
